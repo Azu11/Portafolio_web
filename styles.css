@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.sidebar {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile p.title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contac-info,
+.industry-knowledge,
+.languages,
+.social,
+.hobbies {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.experience,
+.education,
+.skills,
+.other-skils {
+    margin-bottom: 20px;
+}
+
+.experience h2,
+.education h2,
+.skills h2,
+.other-skils h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job1, .job2,
+.education1, .education2, .education3, .education4,
+.habilidades {
+    margin-bottom: 15px;
+}
+
+.job1 h3, .job2 h3,
+.education1 h3, .education2 h3, .education3 h3, .education4 h3 {
+    font-size: 20px;
+    color: #6a11cb;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.habilidades p {
+    display: inline-block;
+    background-color: #e3e3e3;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
