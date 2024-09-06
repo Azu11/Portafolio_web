@@ -211,7 +211,8 @@ p {
 
 .skills {
     
-    text-align: center;
+    text-align: left;
+    justify-content: flex-start;
 }
 
 .skills h2 {
