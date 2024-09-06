@@ -90,18 +90,10 @@ li {
 .skills,
 .other-skils {
     margin-bottom: 20px;
+    padding-left: 0px;
+    text-align: left;
 }
 
-/* espacio entre titulo y contenido*/
-.experience h2,
-.education h2,
-.skills h2,
-.other-skils h2 {
-    font-size: 24px;
-    color: #020202;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
 
 /*Distancia entre secciones*/
 .job1,
@@ -175,6 +167,8 @@ p {
     margin-bottom: 20px;
     font-size: 22px;
     width: fit-content; /*ajusta el ancho del contenido*/
+    font-weight: bold;
+    text-align: left;
 }
 
 /*estilos imagenes actividades*/
@@ -216,7 +210,7 @@ p {
 /*imagenes mis habilidades*/
 
 .skills {
-    padding: 20px;
+    
     text-align: center;
 }
 
@@ -229,13 +223,14 @@ p {
 .skill {
     display: inline-block;
     margin: 20px;
-    text-align: left;
+    text-align: center;
+    
 }
 
 .skill img {
     width: 50px;
     height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .skill p {
