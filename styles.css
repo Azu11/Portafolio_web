@@ -176,3 +176,63 @@ p {
     font-size: 22px;
     width: fit-content; /*ajusta el ancho del contenido*/
 }
+
+/*estilos imagenes actividades*/
+.hobbies {
+    background: linear-gradient(135deg, #afb5bd, #235fc5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/*estilo texto actividades*/
+.hobbies h2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* estilo centrado de las actividades*/
+.hobby {
+    display: inline-block;
+   margin: 20px;
+   text-align: center;
+}
+
+/*estilos imagenes actividades*/
+.hobby img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/*estilos texto de cada actividad*/
+.hobby p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/*para pantallas de menos de 768px de ancho*/
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    
+    .sidebar {
+        padding: 15px;
+    }
+
+    .main-container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .habilidades p {
+        padding: 3px 8px;
+    }
+}
