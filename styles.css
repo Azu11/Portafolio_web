@@ -240,6 +240,18 @@ p {
     margin-top: 5px;
 }
 
+/**/
+.experience ul {
+    margin-left: 20px;
+}
+
+.experience li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    list-style: circle;
+}
+
 /*para pantallas de menos de 768px de ancho*/
 @media (max-width: 768px) {
     .container {
