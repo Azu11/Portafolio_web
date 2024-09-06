@@ -163,7 +163,7 @@ p {
     color: #9ddf60;
 }
 
-
+/*estilos container der, color, fuente y borde*/
 .experience h2,
 .education h2,
 .skills h2,
@@ -208,6 +208,37 @@ p {
 
 /*estilos texto de cada actividad*/
 .hobby p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/*imagenes mis habilidades*/
+
+.skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.skill p {
     font-size: 16px;
     color: #333;
     margin-top: 5px;
