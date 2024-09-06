@@ -1,3 +1,4 @@
+/*Estilos portafolio*/
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body {
     line-height: 1.6;
 }
 
+/*Estilos para el contenedor*/
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -23,13 +25,15 @@ body {
     border-radius: 8px;
 }
 
+/*Color contendor izquierdo*/
 .sidebar {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(135deg, #3e4350 0%, #235fc5 100%);
     color: white;
     padding: 20px;
     border-radius: 8px;
 }
 
+/*estilos imagen */
 .profile img {
     width: 100px;
     height: 100px;
@@ -37,24 +41,32 @@ body {
     margin-bottom: 10px;
 }
 
+/*nombre*/
 .profile h1 {
     font-size: 24px;
     margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
 }
 
+/*nombre especialidad*/
 .profile p.title {
     font-size: 18px;
     margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
 }
 
+/*Espacio entre secciones*/
 .contac-info,
 .industry-knowledge,
 .languages,
 .social,
-.hobbies {
+.hobbies .personal-info .industry-knowledge {
     margin-bottom: 20px;
 }
 
+/*separación entre secciones ---------*/
 h2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -62,10 +74,17 @@ h2 {
     padding-bottom: 5px;
 }
 
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/*margen container derecho*/
 .main-container {
     padding: 20px;
 }
 
+/*Distancia entre secciones izq*/
 .experience,
 .education,
 .skills,
@@ -73,33 +92,47 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* espacio entre titulo y contenido*/
 .experience h2,
 .education h2,
 .skills h2,
 .other-skils h2 {
     font-size: 24px;
-    color: #333;
+    color: #020202;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.job1, .job2,
-.education1, .education2, .education3, .education4,
+/*Distancia entre secciones*/
+.job1,
+.job2,
+.education1,
+.education2,
+.education3,
+.education4,
 .habilidades {
     margin-bottom: 15px;
 }
 
-.job1 h3, .job2 h3,
-.education1 h3, .education2 h3, .education3 h3, .education4 h3 {
+/*tamaño fuente, color y distancia de las secciones*/
+.job1 h3,
+.job2 h3,
+.education1 h3,
+.education2 h3,
+.education3 h3,
+.education4 h3 {
     font-size: 20px;
-    color: #6a11cb;
+    color: #235fc5;
     margin-bottom: 5px;
 }
 
+/*Tamaño defuente*/
 p {
     font-size: 16px;
     margin-bottom: 5px;
 }
 
+/* diseño botones habilidades*/
 .habilidades p {
     display: inline-block;
     background-color: #e3e3e3;
@@ -108,4 +141,38 @@ p {
     margin-right: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
+}
+
+
+/*curso sobre links y cambio de color*/
+.social p {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.social p:hover {
+    color: #9ddf60;
+}
+
+.contac-info p {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.contac-info p:hover {
+    color: #9ddf60;
+}
+
+
+.experience h2,
+.education h2,
+.skills h2,
+.other-skils h2 {
+    background-color: #3e4350;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: fit-content; /*ajusta el ancho del contenido*/
 }
